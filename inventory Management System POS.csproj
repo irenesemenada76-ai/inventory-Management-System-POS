@@ -95,11 +95,35 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FrmAccounts.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAccounts.Designer.cs">
+      <DependentUpon>FrmAccounts.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmCreateAccount.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmCreateAccount.Designer.cs">
       <DependentUpon>frmCreateAccount.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmDamage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmDamage.Designer.cs">
+      <DependentUpon>FrmDamage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmDashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmDashboard.Designer.cs">
+      <DependentUpon>FrmDashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmExpiredItems.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmExpiredItems.Designer.cs">
+      <DependentUpon>frmExpiredItems.cs</DependentUpon>
     </Compile>
     <Compile Include="frmLoginform1.cs">
       <SubType>Form</SubType>
@@ -113,17 +137,53 @@
     <Compile Include="FrmMainform.Designer.cs">
       <DependentUpon>FrmMainform.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmManageReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmManageReport.Designer.cs">
+      <DependentUpon>FrmManageReport.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmProducts.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmProducts.Designer.cs">
       <DependentUpon>frmProducts.cs</DependentUpon>
     </Compile>
+    <Compile Include="Manage Products.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manage Products.Designer.cs">
+      <DependentUpon>Manage Products.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Manage Stocks.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manage Stocks.Designer.cs">
+      <DependentUpon>Manage Stocks.cs</DependentUpon>
+    </Compile>
     <Compile Include="MySQL_Database.cs" />
+    <Compile Include="POS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="POS.Designer.cs">
+      <DependentUpon>POS.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FrmAccounts.resx">
+      <DependentUpon>FrmAccounts.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmCreateAccount.resx">
       <DependentUpon>frmCreateAccount.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmDamage.resx">
+      <DependentUpon>FrmDamage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmDashboard.resx">
+      <DependentUpon>FrmDashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmExpiredItems.resx">
+      <DependentUpon>frmExpiredItems.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmLoginform1.resx">
       <DependentUpon>frmLoginform1.cs</DependentUpon>
@@ -131,8 +191,20 @@
     <EmbeddedResource Include="FrmMainform.resx">
       <DependentUpon>FrmMainform.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FrmManageReport.resx">
+      <DependentUpon>FrmManageReport.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmProducts.resx">
       <DependentUpon>frmProducts.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manage Products.resx">
+      <DependentUpon>Manage Products.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manage Stocks.resx">
+      <DependentUpon>Manage Stocks.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="POS.resx">
+      <DependentUpon>POS.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -226,6 +298,33 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\log-out %283%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\profits.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\profits1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\profits2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\profit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\profits %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\profits %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\profit %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\profit %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\profit %283%29.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
