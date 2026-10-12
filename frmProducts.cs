@@ -25,5 +25,9 @@ namespace inventory_Management_System_POS {
         private void frmProducts_Load(object sender, EventArgs e) {
 
         }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e) {
+
+        }
     }
 }
